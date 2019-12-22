@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brindaban Govt. College.</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+.hfixed{
+    position: sticky;
+    top: 0px;
+}
+.bg img{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+}
+.header{
+    width: 1000px;
+    height: 110px;
+    background-color: #002147;
+    border-radius: 0 0 20px 20px;
+    margin: auto;
+}
+.header img{
+    height: 115px;
+    width: 110px;
+    margin-top: -5px;
+    //border-radius: 50px;
+    float: left;
+}
+.header p{
+    color: white;
+    margin-top: 30px;
+    float: left;
+    font-size: 40px;
+}
+
+
+
+
+.menuber1{
+    width: 400px;
+    height: 40px;
+    background-color: #347C17;
+    float: right;
+    margin-top: 15px;
+    margin-right: 30px;
+    border-radius: 6px;
+}
+.firstmenuber{
+    display: flex;
+    list-style-type: none;
+    margin-top: 8px;
+    width: 100%;
+    color: white;
+}
+.firstmenuber li{
+    margin-left: 18px;
+    font-size: 18px;
+}
+.firstmenuber a{
+    color: white;
+    text-decoration: none;
+}
+.firstmenuber a:hover{
+    text-decoration: underline;
+    color: rgb(228, 228, 228);
+}
+
+
+
+
+.container2{
+    width: 1000px;
+    height: 45px;
+    margin: auto;
+    background-color: #347C17;
+    border-radius: 12px;
+}
+.secondmenuber{
+    display: flex;
+    list-style-type: none;
+    width: 1000px;
+    //background-color: red;
+}
+.secondmenuber li{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.secondmenuber a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.secondmenuber a:hover{
+    text-decoration: underline;
+    color: rgb(228, 228, 228);
+}
+.container3{
+    width: 1000px;
+    height: 400px;
+    margin: auto;
+    background-color: white;
+    border-radius: 12px 12px 0 0;
+    box-sizing: border-box;
+}
+.area1{
+    height: 90%;
+    width: 65%;
+    float: left;
+    color: black;
+    //background-color: red;
+}
+.asdf{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(243, 243, 243, 0.883);
+}
+.asdf h4{
+    padding-left: 20px;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: red;
+    width: 30%;
+    font-weight: bold;
+    font-size: 23px;
+    //background-color: green;
+}
+.asdf h4:hover{
+    color: black;
+}
+.area2{
+    height: 90%;
+    width: 30%;
+    margin-right: 10px;
+    float: right;
+    color: black;
+    //background-color: red;
+}
+.jkl{
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(136, 136, 136, 0.198);
+    text-align: center;
+}
+.jkl img{
+    width: 110px;
+    height: 120px;
+    margin-top: 20px;
+    border: 5px solid rgb(245, 239, 239);
+}
+.jkl img:hover{
+    border: 5px solid red;
+}
+.jkl h4{
+    padding-top: 5px;
+    font-size: 20px;
+}
+.jkl p{
+    font-size: 16px;
+}
+.footerphotos{
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.footerphotos img{
+    float: left;
+    width: 90px;
+    height: 85px;
+    border: 2px solid white;
+    transition: transform 2s;
+}
+.footerphotos img:hover{
+    transform: scale(1.5);
+    border: 2px solid red;
+}
+.footer{
+    width: 1000px;
+    height: 45px;
+    margin: auto;
+    background-color: #182F8F;
+    border-radius:0 0 12px 12px;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+}
+.font1{
+    //background-color: red;
+    width: 105px;
+}
+.font2{
+    //background-color: green;
+    margin-left: -20px;;
+}
+.font1 a{
+    position: absolute;
+}
+.font1 i, .font2 i{
+    font-size: 17px;
+    color: rgb(212, 212, 212);
+}
+.footer h6{
+    color: rgb(206, 206, 206);
+    font-size: 10px;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.active a{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.submenu1{
+    background-color: rgba(0, 0, 0, 0.794);
+    width: 140px;
+    list-style-type: none;
+    margin-left: 5px;
+    margin-top: 35px;
+    padding-top: 2px;
+    display: none;
+    position: absolute;
+}
+.submenu1 li{
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 22px;
+    margin-left: 0px;
+}
+.submenu1 a{
+    font-size: 13px;
+    display: block;
+}
+.submenu1 a:hover{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+
+.submenu2{
+    background-color: rgba(0, 0, 0, 0.794);
+    width: 120px;
+    list-style-type: none;
+    margin-left: 25px;
+    margin-top: 15px;
+    padding-top: 2px;
+    display: none;
+    position: absolute;
+}
+.submenu2 li{
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 22px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+}
+.submenu2 a{
+    font-size: 15px;
+    display: block;
+}
+.submenu2 a:hover{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+
+
+
+.font3{
+    //background-color: red;
+    width: 105px;
+}
+.font3{
+    //background-color: green;
+    margin-left: -20px;;
+}
+.font3 a{
+    position: absolute;
+}
+.font3 i, .font2 i{
+    font-size: 17px;
+    color: rgb(212, 212, 212);
+}
+
+
+.submenu3{
+    background-color: rgba(0, 0, 0, 0.794);
+    width: 120px;
+    list-style-type: none;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding-top: 2px;
+    position: absolute;
+    margin-top: 35px;
+    display: none;
+}
+.submenu3 li{
+    border-bottom: 1px solid white;
+    width: 100%;
+    height: 22px;
+    margin-left: 0px;
+    padding-bottom: 5px;
+}
+.submenu3 a{
+    font-size: 15px;
+    display: block;
+}
+.submenu3 a:hover{
+    color: rgb(202, 202, 202);
+    text-decoration: none;
+}
+.lrj:hover .submenu3{
+    display: block;
+}
+.lrj{
+    //background-color: red;
+    height: 45px;
+}
+.lrj:hover .submenu2{
+    display: block;
+}
+.lrj:hover .submenu1{
+    display: block;
+}
+.tablearea{
+    //background-color: red;
+    height: 86%;
+    width: 96%;
+    margin-left: 2%;
+    overflow: hidden;
+}
+.intable{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+}
+th, td{
+    border: 1px solid black;
+}
+.slno{
+    font-size: 16px;
+    width: 8%;
+    text-align: center;
+}
+.title{
+    width: 65%;
+    text-align: center;
+}
+.pdate{
+    width: 14%;
+    text-align: center;
+}
+.download{
+    width: 13%;text-align: center;
+}
+.title1{
+    padding-left: 10px;
+}
+
+
+
+
+
+.afooter{
+    height: 310px;
+    width: 1000px;
+    background-color: #002147;
+    margin: auto;
+}
+.afooter2{
+    height: 105px;
+    width: 1000px;
+    background-color: #4880c0;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0 0 12px 12px; 
+}
+.box_area{
+    width: 1000px;
+    height: 310px;
+    position: absolute;
+    background-color: #194A99;
+    box-sizing: border-box;
+}
+.box_1, .box_2, .box_3, .box_4{
+    height: 270px;
+    width: 225px;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    //border: 1px solid red;
+    //background-color: green;
+}
+.f_h_hr{
+    height: 1px;
+    width: 100%;
+    background-color: white;
+    border: none;
+    margin-top: 1px;
+
+}
+.box_1 h2{
+    color: white;
+    font-size: 20px;
+}
+.box_1 p{
+    color: white;
+    padding-top: 8px;
+}
+.box_1 a{
+    color: #FAA813;
+}
+.box_2 h2, .box_3 h2, .box_4 h2{
+    color: white;
+    font-size: 21px;
+}
+.f_item{
+    margin-top: 5px;
+    margin-left: 2px;
+}
+.f_item i{
+    color: rgb(190, 190, 190);
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.f_item a{
+    color: white;
+    text-decoration: none;
+}
+.f_item a:hover{
+    text-decoration: underline;
+}
+.f_contact p{
+    color: white;
+    font-size: 19px;
+}
+.f_e_mail p{
+    font-size: 17px;
+}
+.f_social_area{
+    width: 80%;
+    height: 42px;
+    //margin: auto;
+    margin-top: 12px;
+    //background-color: green;
+    box-sizing: border-box;
+}
+.fb, .ins, .twt, .yt{
+    padding: 10px;
+    width: 16px;
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 100px;
+    float: left;
+    margin-left: 5px;
+}
+.fb:hover, .ins:hover, .twt:hover, .yt:hover{
+    background-color: rgb(202, 202, 202);
+}
+.fb a{
+    color: #3b5999;
+    padding-left: 4px;
+}
+.ins a{
+    color: #e4405f;
+}
+.twt a{
+    color: #55acee;
+}
+.yt a{
+    color: #cd201f;
+}
+.afooter2{
+    box-sizing: border-box;
+}
+.first_f_area{
+    width: 50%;
+    height: 100%;
+    //background-color: red;
+    float: left;
+}
+.first_f_area{
+    color: white;
+}
+.first_f_area p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.second_f_area{
+    width: 50%;
+    height: 100%;
+    float: left;
+    //background-color: black;
+}
+.second_f_area p{
+    color: white;
+    padding-top: 8px;
+}</style>
+    
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+</head>
+<body>
+    <div class="bg">
+        <img src="bg.jpg">
+    </div>
+    <div class="header">
+        <a href="index.html">
+          <img src="logo.png">
+        </a>
+        <p>Brindaban Govt. College.</p>
+
+
+        <div class="menuber1">
+            <ul class="firstmenuber">
+                <li class="active"><a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;|</li class="active">
+                <li><a href="about.html">About</a>&nbsp;&nbsp;&nbsp;|</li>
+                <li><a href="contact.html">Contact Us</a>&nbsp;&nbsp;&nbsp;|</li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <div class="container2">
+        <ul class="secondmenuber">
+            <li class="active"><a href="index.html">Home</a></li class="active">
+            <li><a href="notices.html">Notices</a></li>
+            <li><a href="idate&time.html">Important Dates & Time</a></li>
+            <li><a href="teachters.html">Teachers</a></li>
+
+
+            <div class="lrj">
+
+            <li class="font3"><a href="#">Departments&nbsp;<i class="fas fa-caret-down"></i></a>
+                <ul class="submenu3">
+                    <li><a href="#">Mathematics</a></li>
+                    <li><a href="#">Physics</a></li>
+                    <li><a href="#">Chemestry</a></li>
+                    <li><a href="#">Ziology</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Accounting</a></li>
+                    <li><a href="#">Management</a></li>
+                </ul>
+            </li>
+            
+        </div>
+
+
+
+
+        <div class="lrj">
+            <li class="font1"><a href="#">Prospectus&nbsp;<i class="fas fa-caret-down"></i></a>
+                <ul class="submenu1">
+                    <li><a href="#">Honours</a></li>
+                    <li><a href="#">Professional</a></li>
+                    <li><a href="#">Degree Pass</a></li>
+                    <li><a href="#">Masters (Regular)</a></li>
+                    <li><a href="#">Masters (Prosfessional)</a></li>
+                    <li><a href="#">Preliminary to Masters</a></li>
+                </ul>
+            </li>
+        </div>
+
+        <div class="lrj">
+            <li class="font2"><a href="#">Full Guideline&nbsp;<i class="fas fa-caret-down"></i></a>
+                <ul class="submenu2">
+                    <li><a href="#">Honours</a></li>
+                    <li><a href="#">Professional</a></li>
+                    <li><a href="#">Degree Pass</a></li>
+                </ul>
+            </li>
+        </div>
+
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </div>
+
+
+    <div class="container3">
+        <div class="area1">
+            <div class="asdf">
+                <h4>Important Notice:</h4>
+
+
+
+
+
+                <div class="tablearea">
+                    <table class="intable">
+                        <tr>
+                            <th class="slno">Sl No:</th>
+                            <th class="title">Title</th>
+                            <th class="pdate" style="font-size: 15px;">Publis Date</th>
+                            <th class="download">Download</th>
+                        </tr>
+                        <tr>
+                            <td class="slno">1</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td class="slno">2</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td class="slno">3</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td class="slno">4</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td class="slno">5</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr><tr>
+                            <td class="slno">6</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td class="slno">7</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td  class="download"><a href="#">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td class="slno">8</td>
+                            <td class="title1">Title Name</td>
+                            <td class="pdate">12-12-2020</td>
+                            <td class="download"><a href="#">Download</a></td>
+                        </tr>
+                       
+                    </table>
+                </div>
+
+
+
+
+
+
+            </div>
+        </div>
+        <div class="area2">
+            <div class="jkl">
+                <img src="Principal.jpg">
+                <h4>Md Elias Hossain</h4>
+                <p>Professor</p>
+                <p>Brindaban Govt. College.</p>
+                <div class="footerphotos">
+                    <img src="bgcpic1.jpg">
+                    <img src="bgcpic2.jpg">
+                    <img src="bgcpic3.jpg">
+                </div>
+            </div> 
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Copyright © All Rights Reserved - National University, Bangladesh</p>
+        <h6>Created by : LR.Jamil</h6>
+    </div>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v5.0'
+        });
+      };
+
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your customer chat code -->
+    <div class="fb-customerchat"
+      attribution=setup_tool
+      page_id="1515471151931225">
+    </div>
+
+     
+</body>
+</html>
